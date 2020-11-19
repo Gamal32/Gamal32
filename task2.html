@@ -1,0 +1,150 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name=" facebook">
+        <title>login</title> 
+         
+       <style>
+       *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        height: 730px;
+        background-image: url( "https://lampstudy.net/wp-content/uploads/2020/04/Is-Computer-science-hard-1024x574.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .login{
+        width: 450px;
+        height: 400px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+    .box{
+        width: 300px;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 30px 20px;
+    }
+    .head{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .h h4,p{
+        width: 100%;
+        color: rgb(7, 7, 110);
+        font-size: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+     
+     
+    
+    .input input{
+        display: block;
+        margin-bottom: 25px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        padding: 5px 0px;
+    
+    }
+    .input input:nth-of-type(3){
+        background-color: rgb(3, 3, 82);
+        color: #fff;
+        cursor: pointer;
+    }
+    .forget{
+        text-align: center;
+    }
+    .forget a{
+        text-decoration: none;
+    }
+    .bar{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 250px;
+        height: 100%;
+        background-color: rgba(3, 3, 151, 0.5);
+        padding: 30px 0px;
+    }
+    .bar .icon{
+        width: 100%;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+    .bar .icon div{
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        transform: translateX(600%);
+    }
+    .bar .lin div a{
+     display: block;
+     text-align: center;
+     height: 50px;
+     line-height: 50px;
+     color: #fff;
+     text-decoration: none;
+     text-transform: capitalize;
+     font-size: 20px;
+    }
+     
+    </style>
+    </head>
+    <body>
+        <div>
+            <div class="container">
+                <div class="login">
+                    <div class="box">
+                       <div class="h">
+                           <h4>facebook</h4>
+                           <p>login</p>
+                       </div>
+                       <div class="input">
+                           <input type="email" placeholder="Email or Phone">
+                           <input type="password" placeholder="Password">
+                           <input type="submit">
+                       </div>
+                       <div class="forget">
+                           <a href="#">forget password</a>
+                           <span>or</span>
+                           <a href="#">sign up</a>
+                       </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="icon">
+                        <div><i class="fa fa-bars"></i></div>
+                    </div>
+                    <div class="lin">
+                        <div><a href="home">home</a></div>
+                        <div><a href="about">about</a></div>
+                        <div><a href="services">services</a></div>
+                        <div><a href="contact">contact</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
